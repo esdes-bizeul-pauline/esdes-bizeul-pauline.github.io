@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: white; 
+    height: 40px;
+}
+
+.w3-sidebar{
+        background-color:white; 
+        width: 250px;
+}
+.w3-sidebar img{
+    width: 80%;
+    margin-left: 10%;
+}
+main{
+    margin-left: 250px;
+    margin-right: 0px;
+}
+sectionimg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0px;
+    left: 0x;
+    margin-right: 0%;
+}
+@font-face {
+    font-family: CaviarDreams;
+    src: url(fonts/CaviarDreams.ttf)
+}
+
+@font-face {
+    font-family: Lietome;
+    src: url(fonts/Lietome.ttf)
+}
+
+}
+*{
+    font-family: Lietome;
+}
+header h1{
+    color:black;
+    font-family: Lietome;
+}
+header h2{
+    color:black;
+    font-family: CaviarDreams;
+}
+
+
+*{
+    font-family: CaviarDreams;
+}
+#myButton {
+    transition: transform 1s;
+}
+
+.rotate {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+aside{
+    margin: 0px;
+}
