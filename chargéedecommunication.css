@@ -14,16 +14,7 @@ body{
 }
 main{
     margin-left: 200px;
-    margin-right: 0px;
-}
-sectionimg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    top: 0px;
-    left: 0x;
-    margin-right: 0%;
+    margin-right: 20px;
 }
 @font-face {
     font-family: CaviarDreams;
@@ -47,24 +38,13 @@ header h1{
     font-family: Lietome;
     size: 30;
 }
-
+section h2 {
+    font-family: CaviarDreams;
+}
 section h1 {
     font-family; CaviarDreams;
 }
 
-footer h3 {
-    color:black;
-    font-family: CaviarDreams;
-}
-
-#myButton {
-    transition: transform 1s;
-}
-
-.rotate {
-    transform: rotate(360deg);
-    transition: transform 2s;
-}
-aside{
-    margin: 0px;
+p {
+    padding-bottom: 100px;
 }
