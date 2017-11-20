@@ -35,6 +35,11 @@ sectionimg {
     src: url(fonts/Lietome.ttf)
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-ExtraLight.ttf)
+}
+
 }
 *{
     font-family: Lietome;
@@ -42,16 +47,23 @@ sectionimg {
 *{
     font-family: CaviarDreams;
 }
+*{
+    font-family: Raleway;
+}
+
 header h1{
     color:black;
     font-family: Lietome;
     size: 30;
 }
 
-section h1 {
-    font-family; CaviarDreams;
+h1 {
+    font-family: CaviarDreams;
 }
 
+h3 {
+    font-family: CaviarDreams;
+}
 footer h3 {
     color:black;
     font-family: CaviarDreams;
