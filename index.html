@@ -4,13 +4,11 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Étudiante en Bachelor Management et communication Digitale en alternance à l’ESDES Lyon, 2017-2018.  Profil professionnel - Digital - Création graphique - Evénementiel"
-  />
+ 
   <title>Made by Pauline Bizeul - Communication Digitale et Graphique</title>
   <link rel="stylesheet" href="w3/w3.css" />
   <link rel="stylesheet" href="index.css" />
-  <meta name="description" content="Étudiante en Bachelor Management et communication Digitale en alternance à l’ESDES Lyon, 2017-2018.  Profil professionnel - Digital - Création graphique - Evénementiel"
-  />
+  <meta name="description" content="Étudiante en Bachelor Management et communication Digitale en alternance à l’ESDES Lyon, 2017-2018. Digital - Création graphique - Evénementiel"/>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108236878-1"></script>
   <script>
@@ -27,7 +25,9 @@
 
   <aside class="w3-sidebar w3-border">
     <h3 class="w3-wide w3-center">
-      <b>HOME</b>
+        <button class="w3-button w3-round">HOME</button>
+      
+    
     </h3>
     <img src="img/PHoto.png" class="w3-round w3-center" alt="profil">
 
@@ -42,31 +42,33 @@
       <button class="w3-button w3-round">MES PROJETS</button>
       <button class="w3-button w3-round">MES CRÉATIONS</button>
       <button class="w3-button w3-round">CONTACT</button>
-
+    </div>
   </aside>
 
   <main>
-    <header class="w3-container w3-center">
-      <h1>Made by Pauline Bizeul </h1>
+    <header>
+      <h1 class="w3-container w3-center">Made by Pauline Bizeul </h1> 
+      <b class="w3-container w3-large w3-right"><input oninput="w3.filterHTML('#id01', 'li', this.value)" placeholder="Rechercher..."></b>
+      
     </header>
     <section>
 
-      <img src="img/desk - copie.jpg" alt="desk" width="100%" />
+      <img src="img/desk1.jpg" alt="desk" width="100%" />
 
-      <div class="w3-container w3-large">
-        <p class="w3-center">3 choses à savoir sur moi :</p>
-      </div>
 
       <div class="w3-container w3-large">
         <p class="w3-center">Étudiante en Communication digitale - Chargée de communication en alternance - Diplômée d'un BTS Communication</p>
       </div>
+
+      <p class="w3-large w3-center"> 
+        <a href="articles/ledigital.html" button class="w3-button w3-round">LE DIGITAL ET MOI<b>- lire l'article -</b></button></a>
 
       <div class="w3-content" style="max-width:1100px">
 
         <!-- About Section -->
         <div class="w3-row w3-padding-64" id="about">
           <div class="w3-col m6 w3-padding-large w3-hide-small">
-            <img src="img/logo btp.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+            <img src="img/logobtp.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
           </div>
 
           <div class="w3-col m6 w3-padding-large">
@@ -77,14 +79,16 @@
               <p class="w3-large"> J'effectue mon année d'alternance au sein de BTP CFA Rhône-Alpes véritable réseau régional, cette association regroupe l'ensemble des CFA en BTP de Rhône-Alpes. En tant que <b>Chargée de Communication</b>, j'ai de nombreuses responsabilités. Conception et animation de la communication interne et externe, création, organisation et suivi des événements, conception et mise à jour des supports de communication, relations avec la presse, gestion des prestataires. J'adore mon poste, il me permet de travailler sur une communication à 360° et de travailler sur de nombreux supports.
           </div>
 
+          
+
           <div class="w3-col m6 w3-padding-large">
             <h1 class="w3-center">MES EXPÉRIENCES</h1>
             <br>
             
               <p class="w3-large"> 
-                  <a href="chargéedecommunication.html" button class="w3-button w3-round">Chargée de communication - Radio CAPSAO</button></a>
-                  <a href="" button class="w3-button w3-round">Assistante communication - Agence Clair de Lune</button></a>
-                  <a href="" button class="w3-button w3-round">Assistante relations presse - Agence Bonne Réponse</button></a>
+                  <a href="articles/chargeedecommunication.html" button class="w3-button w3-round">Chargée de communication - Radio CAPSAO <b>- lire l'article -</b></button></a>
+                  <a href="" button class="w3-button w3-round">Assistante communication - Agence Clair de Lune <b>- lire l'article -</b></button></a>
+                  <a href="" button class="w3-button w3-round">Assistante relations presse - Agence Bonne Réponse <b>- lire l'article -</b></button></a>
                 </p>
                 
           </div>
