@@ -22,7 +22,7 @@ sectionimg {
     height: 100%;
     object-fit: cover;
     top: 0px;
-    left: 0x;
+    left: 0px;
     margin-right: 0%;
 }
 @font-face {
@@ -40,7 +40,7 @@ sectionimg {
     src: url(fonts/Raleway-ExtraLight.ttf)
 }
 
-}
+
 *{
     font-family: Lietome;
 }
@@ -64,19 +64,22 @@ h1 {
 h3 {
     font-family: CaviarDreams;
 }
+
+h5 {
+    font-family: CaviarDreams;
+
+}
 footer h3 {
     color:black;
     font-family: CaviarDreams;
 }
 
-#myButton {
-    transition: transform 1s;
-}
 
-.rotate {
-    transform: rotate(360deg);
-    transition: transform 2s;
-}
 aside{
     margin: 0px;
+}
+
+
+b {
+    font-weight: bold;
 }
