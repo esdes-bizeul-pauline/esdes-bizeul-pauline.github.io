@@ -8,14 +8,17 @@ body{
         background-color:white; 
         width: 200px;
 }
+
 .w3-sidebar img{
     width: 80%;
     margin-left: 10%;
 }
+
 main{
     margin-left: 200px;
     margin-right: 0px;
 }
+
 sectionimg {
     position: absolute;
     width: 100%;
@@ -25,6 +28,7 @@ sectionimg {
     left: 0px;
     margin-right: 0%;
 }
+
 @font-face {
     font-family: CaviarDreams;
     src: url(fonts/CaviarDreams.ttf)
@@ -44,9 +48,11 @@ sectionimg {
 *{
     font-family: Lietome;
 }
+
 *{
     font-family: CaviarDreams;
 }
+
 *{
     font-family: Raleway;
 }
@@ -54,7 +60,7 @@ sectionimg {
 header h1{
     color:black;
     font-family: Lietome;
-    size: 30;
+    height: 30px;
 }
 
 h1 {
