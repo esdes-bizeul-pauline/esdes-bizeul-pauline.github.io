@@ -17,7 +17,7 @@ Mon blog a pour cible des recruteurs en start-up qui pourrait avoir besoin d'une
 A gauche jusqu'au centre une petit présentation du site avec une image.
 A droite ma photo avec la possibilité de cliquer dessus afin d'en savoir plus sur mon profil.
 
-
+![](./img/page1.png)
 
 
 
@@ -28,6 +28,8 @@ A droite ma photo avec la possibilité de cliquer dessus afin d'en savoir plus s
 Des rectangles avec des images en noir et blanc en fonds et mes titres d'articles en blanc.  Les différentes images deviennent couleurs quand on passe ou clique dessus. 
 Lorque l'on clique sur un article les articles se composent ainsi : 
 
+![](./img/page2.png)
+
 ``` 
 Article 1 :Mon année de Bachelor à l'ESDES 
 ```
@@ -35,6 +37,9 @@ Article 1 :Mon année de Bachelor à l'ESDES
 - **TITRE**
 - Sous titre
 - Paragraphe
+
+![](./img/pagearticle1.png)
+
 
 ``` 
 Article 2 :  Mon alternance en Bachelor 
@@ -44,6 +49,8 @@ Article 2 :  Mon alternance en Bachelor
 - Sous titre
 - Paragraphe
 
+![](./img/pagearticle2.png)
+
 ``` 
 Article 3 : Mon projet de 2019 : LONDRES 
 ```
@@ -52,4 +59,4 @@ Article 3 : Mon projet de 2019 : LONDRES
 - Sous titre
 - Paragraphe
 
-
+![](./img/pagearticle3.png)
