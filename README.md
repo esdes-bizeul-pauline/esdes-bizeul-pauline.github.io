@@ -29,22 +29,25 @@ Des rectangles avec des images en noir et blanc en fonds et mes titres d'article
 Lorque l'on clique sur un article les articles se composent ainsi : 
 
 ``` 
-Article 1 :Mon année de Bachelor à l'ESDES <img src="img/mac.jpg">
+Article 1 :Mon année de Bachelor à l'ESDES 
 ```
+![](./img/mac.jpg)
 - **TITRE**
 - Sous titre
 - Paragraphe
 
 ``` 
-Article 2 :  Mon alternance en Bachelor <img src="img/office.jpg">
+Article 2 :  Mon alternance en Bachelor 
 ```
+![](./img/office.jpg)
 - **TITRE**
 - Sous titre
 - Paragraphe
 
 ``` 
-Article 3 : Mon projet de 2019 : LONDRES <img src="img/LONDON.jpg">
+Article 3 : Mon projet de 2019 : LONDRES 
 ```
+![](./img/LONDON.jpg)
 - **TITRE**
 - Sous titre
 - Paragraphe
