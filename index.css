@@ -1,4 +1,4 @@
-html {
+hhtml {
     height: 100%;
 }
 
@@ -7,54 +7,85 @@ body {
     margin: 0;
 }
 
-header {
-    background-image: url("img/ponton.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-}
-
 @font-face {
     font-family: raleway;
-    src: url(typo/raleway.ttf)
+    src: url(typo/raleway.ttf);
 }
 @font-face {
     font-family: CaviarDreams;
-    src: url(typo/CaviarDreams.ttf)
+    src: url(typo/CaviarDreams.ttf);
 }
 @font-face {
     font-family: lie;
-    src: url(typo/lie.ttf)
+    src: url(typo/lie.ttf);
+}
+
+@font-face{
+    font-family: Learning;
+    src: url(typo/LearningCurve.ttf);
 }
 
 * {
     font-family: CaviarDreams;
 }
 
-h1 {
-    color: white;
-    font-family: lie;
-    letter-spacing: 7px;
-    font-size: 100px;
-    background-color:rgba(222,184, 135, 0.5);
-    border: solid 5px white ;
-    padding: 8px; 
-    transition: background-color 0.4s ease-in-out ;
+header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    position : fixed;
+    top: 0; 
+    justify-content: center;
+    font-size : 50;
+    background-color: rgb(233, 221, 221);
+    font-family:CaviarDreams;
+    font-size: 15px;
+    opacity:1;
+}
+
+
+#about {
+    height: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 221, 221);
+}
+
+#about h1 {
+    font-family: LearningCurve;
+    text-align: center;
+    font-size: 140px;
+    color: rgb(240,128,128); 
+
+}
+
+#about h2 {
+    font-family: CaviarDreams;
+    font-size: 40px;
     text-align: center;
 }
 
-h1:hover {
-    background-color:rgb(222,184, 135)
+#about h3 {
+    font-family: CaviarDreams;
+    text-align: center;
+}
+
+#about img {
+    height: 50%;
+    border-radius:50%;  
+    width: 250px; 
+    transition: border-radius 0.5s cubic-bezier(0,.98,.52,1);    
+}
+
+#about img:hover {
+    border-radius:35%;   
 }
 
 section {
     min-height: 100%;
-    background-color: rgb(222, 184, 135) ; 
+    background-color: white; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -63,15 +94,43 @@ section {
     align-content: center;
 }
 
-article {
+
+#articles {
+    background-color: rgb(233, 221, 221);
+    height: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#articles h2 {
+    font-family: LearningCurve;
+    text-align: center;
+    font-size: 110px;
+    color:rgb(250, 147, 110);
+}
+
+
+#articles-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#articles h3 {
+    font-family: LearningCurve;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#articles article {
     position: relative;
-    color:white;
-    font-family: raleway;
-    letter-spacing: 7px;
-    font-size: 25px;
+    color: white;
+    font-family: CaviarDreams;
+    letter-spacing: 1px;
+    font-size: 10px;
     border: solid 5px white ;
-    padding: 8px; 
-    transition: background-color 0.4s ease-in-out;
+    padding: 3px; 
     text-align: center;
     width: 30%;
     margin: 10px;
@@ -80,7 +139,10 @@ article {
     background-position: center;
     filter: grayscale(0);
     overflow: hidden;
-
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    transition: background-color 0.4s ease-in-out;
 }
 
 .bg-img {
@@ -101,14 +163,21 @@ article:hover .bg-img {
     transition: all 0.4s ease-in-out;
 }
 
+
+
+
+
 /* Images of articles */ 
 
-#djerba {background-image: url("img/djerba.png");}
-#repdom {background-image: url("img/repdom.jpg");}
-#dive {background-image: url("img/dive.jpg")}
-#ny {background-image: url("img/NY.jpg")}
-#carnet {background-image: url("img/carnet.jpg")}
-#londres {background-image: url("img/londres.jpg")}
+#bachelor {background-image: url("img/mac.jpg");}
+#office {background-image: url("img/office.jpg");}
+#londres {background-image: url("img/londres.jpg");}
+#travel {background-image: url("img/PALM.jpg");}
+
+#footer {
+    background-color: rgb(233, 221, 221);
+}
+
 
 
 /* For Mobiles Only */
