@@ -38,10 +38,10 @@ header {
     top: 0; 
     justify-content: center;
     font-size : 50;
-    background-color: rgb(233, 221, 221);
+
     font-family:CaviarDreams;
     font-size: 15px;
-    opacity:1;
+    z-index:1;
 }
 
 
@@ -106,10 +106,18 @@ section {
 #articles h2 {
     font-family: LearningCurve;
     text-align: center;
-    font-size: 110px;
-    color:rgb(250, 147, 110);
+    font-size: 150px;
+    color: rgb(240,128,128); 
+    animation: titre 4s linear 0s infinite alternate;
+    align-content: space-around;
 }
 
+@keyframes titre {
+    0% {transform: translateX(-50px) scale(0.0,1.1) 
+
+
+    }
+}
 
 #articles-list {
     display: flex;
