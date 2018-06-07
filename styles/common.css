@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(typo/raleway.ttf);
+}
+@font-face {
+    font-family: CaviarDreams;
+    src: url(typo/CaviarDreams.ttf);
+}
+@font-face {
+    font-family: lie;
+    src: url(typo/lie.ttf);
+}
+
+@font-face{
+    font-family: Learning;
+    src: url(typo/LearningCurve.ttf);
+}
+
+* {
+    font-family: CaviarDreams;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    position : fixed;
+    top: 0; 
+    justify-content: center;
+    font-size : 50;
+
+    font-family:CaviarDreams;
+    font-size: 15px;
+}

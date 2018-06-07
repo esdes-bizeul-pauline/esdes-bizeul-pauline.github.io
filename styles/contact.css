@@ -1,0 +1,27 @@
+#contact {
+    height: 100%;
+    padding-top: 10px;
+    display: flex;
+    background-color: rgb(247, 223, 223);
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1 {
+    font-family: LearningCurve;
+    flex-direction: column;
+    text-align: center;
+    font-size: 140px;
+    color: black;
+
+}
+
+#contact p{
+    flex-direction: row;
+    font-size: 25px;
+}
+
+#contact img {
+    height: 50%;
+    flex-direction: row;
+}

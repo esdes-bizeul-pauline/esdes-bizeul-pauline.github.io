@@ -1,0 +1,46 @@
+#form {
+    height: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(233, 222, 222);
+    justify-content: center;
+    align-items: center;
+}
+
+#form h1 {
+    font-family: LearningCurve;
+    text-align: center;
+    font-size: 140px;
+    color: rgb(240,128,128); 
+}
+
+.row-articles{
+display: flex;
+flex-direction: row;
+width:100%;
+justify-content: space-around;
+align-items: center;
+height:100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+#form img {
+    height: 100%;
+
+}
+
+form p {
+    flex-direction: column;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
