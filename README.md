@@ -17,7 +17,7 @@ Mon blog a pour cible des recruteurs en start-up qui pourrait avoir besoin d'une
 A gauche jusqu'au centre une photo de moi ainsi qu'une courte présentation de mon profil. Des animations sont présentes afin d'animer le texte.
 
 
-![](img/page1.png)
+![](img/PAGE 1.png)
 
 
 
@@ -29,7 +29,7 @@ Des rectangles avec des images en noir et blanc en fonds et mes titres d'article
 
 Lorque l'on clique sur un onglet du header, la page se compose ainsi : 
 
-![](img/page2.png)
+![](img/PAGE 2.png)
 
 ``` 
 Page 1 : ABOUT ME
