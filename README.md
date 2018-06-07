@@ -12,51 +12,51 @@ Mon blog a pour cible des recruteurs en start-up qui pourrait avoir besoin d'une
 
 # Première page : 
 
-- HEADER : avec les différents onglets de mon site : MA FORMATION - MES EXPERIENCES PRO - MON PROFIL - CONTACTEZ-MOI - Ainsi qu'une foncion java scrpit avec une barre de recherche.
+- HEADER : avec les différents onglets de mon site : HOME - ABOUT ME - MA FORMATION - MES EXPERIENCES PRO - CONTACTEZ-MOI 
 
-A gauche jusqu'au centre une petit présentation du site avec une image.
-A droite ma photo avec la possibilité de cliquer dessus afin d'en savoir plus sur mon profil.
+A gauche jusqu'au centre une photo de moi ainsi qu'une courte présentation de mon profil. Des animations sont présentes afin d'animer le texte.
+
 
 ![](./img/page1.png)
 
 
 
 # Deuxième page :
-- HEADER : avec les différents onglets de mon site : MA FORMATION - MES EXPERIENCES PRO - MON PROFIL - CONTACTEZ-MOI
-- FOOTER : Mon contact + onglet LinkedIn pour avoir accès à mon profil LinkedIn
+- HEADER : avec les différents onglets de mon site : HOME - ABOUT ME - MA FORMATION - MES EXPERIENCES PRO - CONTACTEZ-MOI 
+- FOOTER : Mon contact + onglet LinkedIn pour avoir accès à mon profil LinkedIn. Egalement des Tags des recherches les plus fréquentes.
 
 Des rectangles avec des images en noir et blanc en fonds et mes titres d'articles en blanc.  Les différentes images deviennent couleurs quand on passe ou clique dessus. 
-Lorque l'on clique sur un article les articles se composent ainsi : 
+
+Lorque l'on clique sur un onglet du header, la page se compose ainsi : 
 
 ![](./img/page2.png)
 
 ``` 
-Article 1 :Mon année de Bachelor à l'ESDES 
+Page 1 : ABOUT ME
 ```
-![](./img/mac.jpg)
 - **TITRE**
 - Sous titre
 - Paragraphe
 
-![](./img/pagearticle1.png)
+![](./img/PAGE 3.png)
 
 
 ``` 
-Article 2 :  Mon alternance en Bachelor 
+Page 2 :  MY FORMATION
 ```
-![](./img/office.jpg)
+
 - **TITRE**
 - Sous titre
 - Paragraphe
 
-![](./img/pagearticle2.png)
+![](./img/PAGE 5.png)
 
 ``` 
-Article 3 : Mon projet de 2019 : LONDRES 
+Page 3 : CONTACT ME
 ```
-![](./img/LONDON.jpg)
+
 - **TITRE**
 - Sous titre
 - Paragraphe
 
-![](./img/pagearticle3.png)
+![](./img/PAGE 4.png)
