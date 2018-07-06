@@ -199,20 +199,13 @@ article:hover .bg-img {
     }
 }
 
-/* For Tablets Only */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    section {
-        justify-content: flex-start;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    article{
-        width: 60%;
-    }
-}
 
 
-/* For Desktop Only */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width : 1200px) {
+        body.article {
+            max-width: 100%;
+        }
     
-}
+        article {
+            padding: 0 20px;
+        }
