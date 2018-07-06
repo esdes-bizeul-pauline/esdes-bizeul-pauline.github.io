@@ -4,7 +4,7 @@
 
 Mon blog regroupe tout ce qui me concerne : Mon profil, ma formation, mes expériences professionnelles, mes loisirs (voyages, danse).
 
-- CIble :
+- Cible :
 
 Mon blog a pour cible des recruteurs en start-up qui pourrait avoir besoin d'une Chargée de communication, afin de leur présenter mon profil ainsi que de leur prouver mes compétences en programmation de site web.
 
