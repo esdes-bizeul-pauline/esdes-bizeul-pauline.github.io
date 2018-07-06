@@ -184,28 +184,20 @@ article:hover .bg-img {
     background-color: rgb(233, 221, 221);
 }
 
-
-
-/* For Mobiles Only */
-@media only screen and (max-width: 600px) {
-
-    section {
-        justify-content: flex-start;
+/* fo mobiles only */
+@media only screen and (max-width:600px){
+    section{
         flex-direction: column;
-        flex-wrap: nowrap;
     }
     article{
-        width: 60%;
+        width:80%;
     }
 }
 
+/* fo tablets only */
+@media only screen and (min-width:600px) and (max-width:768px){
+}
 
-
-@media only screen and (max-width : 1200px) {
-        body.article {
-            max-width: 100%;
-        }
-    
-        article {
-            padding: 0 20px;
-        }
+/* fo destop only */
+@media only screen and (min-width:768px){
+}
