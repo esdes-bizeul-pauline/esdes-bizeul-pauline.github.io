@@ -192,6 +192,18 @@ article:hover .bg-img {
     article{
         width:80%;
     }
+    #articles-list {
+        flex-direction: column;
+        width: 80%;
+    }
+    #articles-list article {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        font-size: 10px;
+    }
+
 }
 
 /* fo tablets only */
